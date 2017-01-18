@@ -1,0 +1,45 @@
+<html>
+<head>
+ 	<link rel="stylesheet" href="styles.css">
+ 	
+
+<title> Login form
+</title>
+</head>
+
+<body>
+<label
+<h1> Sign Up! </h1>
+<form>
+
+<p>
+Name: <input type="text" name="fname" required><br><br>
+Age: <input type="number" name="fname" ><br><br>
+Gender: <input type="text" name="fname"><br><br>
+User ID: <input type="text" id="textbox1" name="fname" required><br><br>
+Password: <input type="password" name="fname" placeholder="Enter a valid password"><br><br>
+Address: <input type="text" name="fname"><br><br>
+Phone Number: <input type="number" name="fname"><br><br>
+Intrests: <input type="text" name="fname"><br><br>
+Email: <input type="email" name="fname"><br><br>
+</p>
+
+<div>
+<input id="submit" type="submit" value="Submit" onClick="bleh();">
+
+</div>
+
+</form>
+</body>
+
+	<script type="text/javascript" language="javascript">
+		var name;
+ 		function bleh(){
+ 		alert("DONE");
+	 	name = document.getElementById('textbox1').value; 
+ 		localStorage.setItem("names",name);
+		window.location="second.html";
+	}
+ 
+	</script>
+</html>

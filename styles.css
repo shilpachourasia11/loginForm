@@ -1,0 +1,23 @@
+body{
+	
+}
+
+h1{
+	font-family: Arial;
+	letter-spacing: 5px;
+}
+
+div{
+	background-color: #76D7C4;
+}
+
+
+p{
+  border: 3px solid #8E44AD;
+  padding: 30px;
+}
+
+#submit{ 
+	width: 10em; 
+	height: 3em;
+}
