@@ -7,7 +7,9 @@ THANK YOU FOR SIGNING UP
 	<script type="text/javascript" language="javascript"> 
  console.log(localStorage.getItem("names"));
 	</script>
-	
+	Hello!
+	Pokemon! 
+	POKEEEMONNN!!!
  
 </body>
 </html>
